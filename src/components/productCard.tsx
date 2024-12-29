@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function ProductCard (){
     return(
-        <div className='grid grid-cols-4 grid-rows-2 mt-8  gap-6'>
+        <div className='grid grid-cols-1 md:grid-cols-4 grid-rows-2 mt-8  gap-6'>
                    <div className='text-center'>
                          <Image src="/cover1.jpg" alt="" width={1000} height={1000} />
                        

@@ -19,22 +19,22 @@ const Pricing = () => {
       </div>
 <div className="text-center py-10  bg-[#FAFAFA]">
       <h1 className="text-4xl font-bold text-gray-800 mt-10">Pricing</h1>
-      <p className="text-gray-600 mt-4">
-      Problems trying to resolve the conflict between <br/>
+      <p className="text-gray-600 mt-4 mx-4">
+      Problems trying to resolve the conflict between  
       the two major realms of Classical physics: Newtonian mechanics 
       </p>
 
-<div className='font-semibold flex gap-8 justify-center py-10'>
-    <div className='flex gap-3'>
+<div className='font-semibold flex gap-6 md:gap-8 justify-center py-10'>
+    <div className='flex gap-1 md:gap-3'>
         <h4>Monthly</h4>
-        <button className=' bg-white border border-blue-400 rounded-3xl p-10 py-1'>
-        <FaCircle  className='text-[#D0D0D0] -ml-8'/>
+        <button className=' bg-white border border-blue-400 rounded-3xl px-6 md:px-10 py-0 md:py-1'>
+        <FaCircle  className='text-[#D0D0D0] -ml-4 md:-ml-8'/>
         </button>
 
     </div>
     <div className='flex gap-3'>
        <h4>Yearly</h4> 
-       <button className='bg-[#B2E3FF] rounded-full text-[#23A6F0] px-6 py-2 -mt-2'>Save 25%</button>
+       <button className='bg-[#B2E3FF] rounded-full text-[#23A6F0] px-3 md:px-6py-1 md:py-2 -mt-1 md:-mt-2 text-xs md:text-xl'>Save 25%</button>
     </div>
 </div>
 
@@ -104,8 +104,8 @@ const Pricing = () => {
       </div>
     </div>
 
-     <div className='text-center py-20  '>
-        <h3 className='text-6xl mt-4 font-bold '>Start your 14 days free trial</h3>
+     <div className='text-center py-20 mx-4 md:mx-0 '>
+        <h3 className='text-4xl md:text-6xl mt-4 font-bold '>Start your 14 days free trial</h3>
         <h4 className='text-[#737373] mt-10'>Met minim Mollie non desert Alamo est sit cliquey dolor<br/> 
           do met sent. RELIT official consequent.</h4>
         <button className='text-white bg-primary2 rounded-sm py-2 px-4 mt-9'>Try it free now</button>

@@ -10,10 +10,10 @@ import { PiArrowBendRightDownLight } from 'react-icons/pi'
 const Contact = () => {
   return (
     <div>
-      <div className='bg-white flex justify-between mx-24'>
-        <section className='mt-32 mx-20'>
+      <div className='bg-white md:flex justify-between mx-4 md:mx-24'>
+        <section className='mt-32 mx-4 md:mx-20 text-center'>
           <h5 className=''>CONTACT US</h5>
-          <h2 className='font-bold text-5xl mt-9'>Get in touch<br /> today!</h2>
+          <h2 className='font-bold text-3xl md:text-5xl mt-9'>Get in touch<br /> today!</h2>
           <h4 className='text-[#737373] mt-5'>We know how large objects will act, <br />
             but things on a small scale</h4>
           <div className='mt-8'>
@@ -24,13 +24,13 @@ const Contact = () => {
 
         </section>
         <section className=''>
-          <Image src="/cont.jpg" alt='' width={1100} height={1100} className='w-[600px] h-[700px] ' />
+          <Image src="/cont.jpg" alt='' width={1100} height={1100} className='w-[600px] h-full md:h-[700px] ' />
         </section>
       </div>
       <div className='mt-20'>
         <div className='text-center'>
           <h5 >VISIT OUR OFFICE</h5>
-          <h2 className='text-5xl font-bold'>We help small businesses<br /> with big ideas</h2>
+          <h2 className='text-3xl md:text-5xl font-bold'>We help small businesses<br /> with big ideas</h2>
         </div>
 
         
@@ -83,7 +83,7 @@ const Contact = () => {
               <PiArrowBendRightDownLight className='size-20 mx-auto text-[#23A6F0]' />
            
                 <h4 className='mt-10'>WE CAN&#39;T WANT TO MEET YOU</h4>
-                <h3 className='text-6xl mt-4 font-bold'>Let&#39;s Talk</h3>
+                <h3 className='text-4xl mdf:text-6xl mt-4 font-bold'>Let&#39;s Talk</h3>
                 <button className='text-white bg-primary2 rounded-sm py-2 px-4 mt-9'>Try it free now</button>
             </div>
           </div>

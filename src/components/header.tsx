@@ -27,7 +27,7 @@ export default function Header(){
                 </div>
         </section>
           <section>
-            <div className="flex gap-32  md:gap-20  pt-6 py-6 border-b-2 mx-3 md:mx-16 ">
+            <div className="flex gap-24 md:gap-20  pt-6 py-6 border-b-2 mx-3 md:mx-16 ">
                 <h1 className="text-2xl md:text-4xl font-bold pt-4">Bandage</h1>
                 <nav>
                 <ul className=" hidden md:flex gap-7 pt-7 mx-20">
@@ -41,14 +41,14 @@ export default function Header(){
                         <li> <Link href="/pages">Pages</Link></li>
                   </ul>
                   </nav>
-                  <div className='hidden md:flex  text-[#23A6F0] mt-6 pl-52 gap-2 '>
+                  <div className='hidden md:flex  text-[#23A6F0] mt-6 pl-32 gap-2 '>
                   <p className='pt-1 '><BsPerson /></p>
                   <Link href="/login/register ">Login/Register</Link>
                </div>
-               <div className=' flex gap-8 -ml-8'>
+               <div className=' flex gap-4 -ml-14'>
                <IoSearch className="mt-6 size-6  text-[#23A6F0]" />
               <IoCartOutline className=" size-6 mt-6 text-[#23A6F0]"/>
-              <IoHeartOutline className="hidden md: size-6 mt-6 text-[#23A6F0]"/>
+              <IoHeartOutline className="hidden md:block size-6 mt-6 text-[#23A6F0]"/>
               </div>
             </div>
         </section>

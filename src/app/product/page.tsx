@@ -13,7 +13,7 @@ export default function ProductListing() {
     const productImages = ['/public/single1.jpg', '/public/single2.jpg'];
 
     return (
-        <div className="container md:mx-auto p-4">
+        <div className="md:block container md:mx-auto p-4">
             {/* Breadcrumb */}
             <nav className="text-gray-600 mb-4">
                 <ol className="list-reset flex">

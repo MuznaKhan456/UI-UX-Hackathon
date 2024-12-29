@@ -2,7 +2,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 export default function PricingCard  (){
     return(
-        <div className="flex flex-col bg-[#FAFAFA] items-center  space-y-8 md:space-y-0 md:flex-row pl-44">
+        <div className="flex flex-col bg-[#FAFAFA] items-center  space-y-8 md:space-y-0 md:flex-row pl-0 md:pl-44 mx-4 md:mx-0">
 
 <div className="flex flex-col items-center text-center -mt-1 border border-[#23A6F0] rounded-lg p-6 w-full max-w-sm shadow-md">
 <h3 className="text-lg font-semibold ">FREE</h3>

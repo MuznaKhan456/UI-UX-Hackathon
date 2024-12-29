@@ -2,7 +2,7 @@ import Image from "next/image"
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
 export default function PageCard (){
     return(
-        <div className='grid grid-cols-3 grid-rows-3 mx-60  gap-6'>
+        <div className='grid grid-cls-1 md:grid-cols-3 grid-rows-3 mx-4 md:mx-60  gap-6'>
            <div className='text-center'>
                  <Image src="/team1.jpg" alt="" width={1000} height={1000} />
                
