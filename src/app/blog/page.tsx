@@ -1,182 +1,53 @@
 
-import Image from "next/image";
-import { FaCircle } from "react-icons/fa";
+"use client"; 
 
-export default function Blog(){
-    return(
-        <div className='grid grid-cols-1 md:grid-cols-4 mx-9 md:mx-60 mt-10'>
-        {/* 1 */}
- <div className='text-center mb-4'>
-         <div className='md:h-[300px] md:w-[239px] '>
-         <Image src="/pro1.jpg" alt="" width={2000} height={2000} className='md:h-[300px] md:w-[239px]'/>
-         </div>
-            <h5 className='mt-4'>Graphic Design</h5>
-            <p className='text-[#737373] '>English Department</p>
-            <h5 className='text-[#BDBDBD]'>$16.48 <span className='text-[#98c0d7]'>$6.48</span></h5>
-               <div className='flex gap-2 ml-36 md:ml-16 pl-3 mt-2'>
-               <FaCircle className='text-[#23A6F0] '/>
-               <FaCircle className='text-[#23856D] '/>
-               <FaCircle className='text-[#E77C40] '/>
-               <FaCircle className='text-[#252B42] '/>
-               </div>
-         </div>
-{/* 2 */}
-    <div className='text-center mb-4'>
-         <div className='md:h-[300px] md:w-[239px] '>
-            <Image src="/pro2.jpg" alt="" width={1000} height={1000} className='md:h-[300px] md:w-[239px] '/>
-            </div>
-            <h5 className='mt-4'>Graphic Design</h5>
-            <p className='text-[#737373]'>English Department</p>
-            <h5 className='text-[#BDBDBD]'>$16.48<span className='text-[#23A6F0]'>$6.48</span></h5>
-               <div className='flex gap-2 ml-36 md:ml-16 pl-3 mt-2'>
-               <FaCircle className='text-[#23A6F0] ' />
-               <FaCircle className='text-[#23856D] '/>
-               <FaCircle className='text-[#E77C40] '/>
-               <FaCircle className='text-[#252B42] '/>
-               </div>
-         </div>
-{/* 3 */}
-  <div className='text-center mb-4'>
-         <div className=' md:h-[300px] md:w-[239px]  '>
-            <Image src="/pro3.jpg" alt="" width={1000} height={1000} className='md:h-[300px] md:w-[239px]'/>
-             </div>
-            <h5 className='mt-4'>Graphic Design</h5>
-            <p className='text-[#737373]'>English Department</p>
-            <h5 className='text-[#BDBDBD]'>$16.48<span className='text-[#23A6F0]'>$6.48</span></h5>
-               <div className='flex gap-2 ml-36 md:ml-16  pl-3 mt-2'>
-               <FaCircle className='text-[#23A6F0] ' />
-               <FaCircle className='text-[#23856D] '/>
-               <FaCircle className='text-[#E77C40] '/>
-               <FaCircle className='text-[#252B42] '/>
-               </div>
-         </div>
-{/* 4 */}
-         <div className='text-center '>
-            <div className=' md:h-[300px] md:w-[239px]'>
-            <Image src="/pro4.jpg" alt="" width={1000} height={1000} className='md:h-[300px] md:w-[239px]'/></div>
-            <h5 className='mt-4'>Graphic Design</h5>
-            <p className='text-[#737373]'>English Department</p>
-            <h5 className='text-[#BDBDBD]'>$16.48<span className='text-[#23A6F0]'>$6.48</span></h5>
-               <div className='flex gap-2 ml-36 md:ml-16  pl-3 mt-2'>
-               <FaCircle className='text-[#23A6F0] ' />
-               <FaCircle className='text-[#23856D] '/>
-               <FaCircle className='text-[#E77C40] '/>
-               <FaCircle className='text-[#252B42] '/>
-               </div>
-         </div>
-{/* 5 */}
-    <div className='text-center'>
-         <div className=' md:h-[300px] md:w-[239px]  '>
-            <Image src="/pro5.jpg" alt="" width={1000} height={1000} className='md:h-[300px] md:w-[239px]'/></div>
-            <h5 className='mt-4'>Graphic Design</h5>
-            <p className='text-[#737373]'>English Department</p>
-            <h5 className='text-[#BDBDBD]'>$16.48<span className='text-[#23A6F0]'>$6.48</span></h5>
-               <div className='flex gap-2 ml-36 md:ml-16  pl-3 mt-2'>
-               <FaCircle className='text-[#23A6F0] ' />
-               <FaCircle className='text-[#23856D] '/>
-               <FaCircle className='text-[#E77C40] '/>
-               <FaCircle className='text-[#252B42] '/>
-               </div>
-         </div>
-        
-{/* 6 */}
-         <div className='text-center '>
-         <div className=' md:h-[300px] md:w-[239px]  '>
-            <Image src="/pro6.jpg" alt="" width={1000} height={1000} className='md:h-[300px] md:w-[239px]'/></div>
-            <h5 className='mt-4'>Graphic Design</h5>
-            <p className='text-[#737373]'>English Department</p>
-            <h5 className='text-[#BDBDBD]'>$16.48<span className='text-[#23A6F0]'>$6.48</span></h5>
-               <div className='flex gap-2 ml-36 md:ml-16  pl-3 mt-2'>
-               <FaCircle className='text-[#23A6F0] ' />
-               <FaCircle className='text-[#23856D] '/>
-               <FaCircle className='text-[#E77C40] '/>
-               <FaCircle className='text-[#252B42] '/>
-               </div>
-         </div>
-{/* 7 */}
-         <div className='text-center mb-4'>
-         <div className=' md:h-[300px] md:w-[239px] '>
-            <Image src="/pro7.jpg" alt="" width={1000} height={1000} className='md:h-[300px] md:w-[239px]'/></div>
-            <h5 className='mt-4'>Graphic Design</h5>
-            <p className='text-[#737373]'>English Department</p>
-            <h5 className='text-[#BDBDBD]'>$16.48<span className='text-[#23A6F0]'>$6.48</span></h5>
-               <div className='flex gap-2 ml-36 md:ml-16  pl-3 mt-2'>
-               <FaCircle className='text-[#23A6F0] ' />
-               <FaCircle className='text-[#23856D] '/>
-               <FaCircle className='text-[#E77C40] '/>
-               <FaCircle className='text-[#252B42] '/>
-               </div>
-         </div>
-{/* 8 */}
-         <div className='text-center  '>
-            <div className='md:h-[300px] md:w-[239px] '>
-            <Image src="/pro8.jpg" alt="" width={1000} height={1000} className='md:h-[300px] md:w-[239px]'/></div>
-            <h5 className='mt-4'>Graphic Design</h5>
-            <p className='text-[#737373]'>English Department</p>
-            <h5 className='text-[#BDBDBD]'>$16.48<span className='text-[#23A6F0]'>$6.48</span></h5>
-               <div className='flex gap-2 ml-36 md:ml-16  pl-3 mt-2'>
-               <FaCircle className='text-[#23A6F0] ' />
-               <FaCircle className='text-[#23856D] '/>
-               <FaCircle className='text-[#E77C40] '/>
-               <FaCircle className='text-[#252B42] '/>
-               </div>
-         </div>
-{/* 9*/}
-         <div className='text-center  '>
-            <div className='md:h-[300px] md:w-[239px] '>
-            <Image src="/fixed1.jpg" alt="" width={1000} height={1000} className='md:h-[300px] md:w-[239px]'/></div>
-            <h5 className='mt-4'>Graphic Design</h5>
-            <p className='text-[#737373]'>English Department</p>
-            <h5 className='text-[#BDBDBD]'>$16.48<span className='text-[#23A6F0]'>$6.48</span></h5>
-               <div className='flex gap-2 ml-36 md:ml-16  pl-3 mt-2'>
-               <FaCircle className='text-[#23A6F0] ' />
-               <FaCircle className='text-[#23856D] '/>
-               <FaCircle className='text-[#E77C40] '/>
-               <FaCircle className='text-[#252B42] '/>
-               </div>
-         </div>
-{/* 10 */}
-         <div className='text-center  '>
-            <div className='md:h-[300px] md:w-[239px] '>
-            <Image src="/fixed2.jpg" alt="" width={1000} height={1000} className='md:h-[300px] md:w-[239px]'/></div>
-            <h5 className='mt-4'>Graphic Design</h5>
-            <p className='text-[#737373]'>English Department</p>
-            <h5 className='text-[#BDBDBD]'>$16.48<span className='text-[#23A6F0]'>$6.48</span></h5>
-               <div className='flex gap-2 ml-36 md:ml-16  pl-3 mt-2'>
-               <FaCircle className='text-[#23A6F0] ' />
-               <FaCircle className='text-[#23856D] '/>
-               <FaCircle className='text-[#E77C40] '/>
-               <FaCircle className='text-[#252B42] '/>
-               </div>
-         </div>
-{/* 11 */}
-         <div className='text-center  '>
-            <div className='md:h-[300px] md:w-[239px] '>
-            <Image src="/fixed3.jpg" alt="" width={1000} height={1000} className='md:h-[300px] md:w-[239px]'/></div>
-            <h5 className='mt-4'>Graphic Design</h5>
-            <p className='text-[#737373]'>English Department</p>
-            <h5 className='text-[#BDBDBD]'>$16.48<span className='text-[#23A6F0]'>$6.48</span></h5>
-               <div className='flex gap-2 ml-36 md:ml-16  pl-3 mt-2'>
-               <FaCircle className='text-[#23A6F0] ' />
-               <FaCircle className='text-[#23856D] '/>
-               <FaCircle className='text-[#E77C40] '/>
-               <FaCircle className='text-[#252B42] '/>
-               </div>
-         </div>
-{/* 12 */}
-         <div className='text-center  '>
-            <div className='md:h-[300px] md:w-[239px] '>
-            <Image src="/fixed4.jpg" alt="" width={1000} height={1000} className='md:h-[300px] md:w-[239px]'/></div>
-            <h5 className='mt-4'>Graphic Design</h5>
-            <p className='text-[#737373]'>English Department</p>
-            <h5 className='text-[#BDBDBD]'>$16.48<span className='text-[#23A6F0]'>$6.48</span></h5>
-               <div className='flex gap-2 ml-36 md:ml-16  pl-3 mt-2'>
-               <FaCircle className='text-[#23A6F0] ' />
-               <FaCircle className='text-[#23856D] '/>
-               <FaCircle className='text-[#E77C40] '/>
-               <FaCircle className='text-[#252B42] '/>
-               </div>
-         </div>
-         </div>
-    )
+import React, { useEffect, useState } from "react";
+import { client } from "@/sanity/lib/client";
+import { Product } from "../../../types/products";
+import { urlFor } from "@/sanity/lib/image";
+import Link from "next/link";
+import { allProducts } from "@/sanity/quries";
+import Image from "next/image";
+
+export default function Blog() {
+  const [products, setProducts] = useState<Product[]>([]);
+
+  useEffect(() => {
+    async function fetchProducts() {
+      const fetchedProducts: Product[] = await client.fetch(allProducts)
+       
+      setProducts(fetchedProducts);
+    }
+    fetchProducts();
+  }, []);
+
+  return (
+    <div className="max-w-6xl mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold mt-12 mb-6 text-center">Our Latest Product</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {products.map((product) => (
+          <div
+            key={product._id}
+            className="border rounded-lg shadow-md p-4 hover:shadow-lg transition duration-200"
+          >
+            <Link href={`/product/${product.slug.current}`}>
+              {product.productImage && (
+                <Image
+                  src={urlFor(product.productImage).url()}
+                  alt={product.title}
+                  width={200}
+                  height={200}
+                  className="w-full h-48 object-cover rounded-md"
+                />
+              )}
+              <h2 className="text-lg font-semibold mt-4">{product.title}</h2>
+              <p className="text-gray-500 mt-2">
+                {product.price ? `$${product.price}` : "Price not available"}
+              </p>
+            </Link>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }

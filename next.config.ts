@@ -1,8 +1,10 @@
-import type { NextConfig } from "next";
+// import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  // output:"export"
+  const nextConfig = {
+    image : {
+      domains : ['cdn.sanity.io'],
+    },
+  
 };
+module.exports= nextConfig;
 
-export default nextConfig;
